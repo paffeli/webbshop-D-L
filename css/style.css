@@ -1,0 +1,35 @@
+body {
+	font-family: sans-serif;
+}
+div, header, aside, section, article, footer {
+	box-sizing: border-box;
+}
+ aside, section, article, footer {
+ 	margin:10px;
+ 	padding: 10px;
+ 	background-color:#ddd;
+ }
+
+header {
+	background-color: #ddd;
+	padding: 10px;
+}
+ #content {
+ 	width: 960px;
+ 	margin: auto;
+ }
+
+ aside, section {
+ 	display: inline-block;
+ 	margin-left: 10px;
+ 	margin-right: 10px;
+ }
+ aside{
+ 	width: 300px;
+ 	
+}
+
+section {
+	width:620px;
+	
+}
